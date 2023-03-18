@@ -11,12 +11,17 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A utils package containing some functional programming utils.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- `Either<L, R>`: a value that can be either left or right;
+- `Lazy<T>`: a lazily evaluated value;
+- `Optional<T>`: an optional value;
+- `Result<V, E>`: the result value, similar to `Either<L, R>`, but has left
+  being assigned to value and right assigned to error. This is similar to the
+  `Result` in rust, but diffferent from the convention in `dartz`;
+- `ServiceStore`: a service locator similar to the one `GetIt` or `Get`;
 
 ## Getting started
 

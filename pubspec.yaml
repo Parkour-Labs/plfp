@@ -1,7 +1,7 @@
 name: plfp
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
-repository: https://github.com/my_org/my_repo
+repository: https://github.com/Parkour-Labs/plfp.git
 
 environment:
   sdk: '>=3.0.0-339.0.dev <4.0.0'
